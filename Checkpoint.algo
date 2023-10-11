@@ -1,0 +1,10 @@
+ALGORITHM Check_point
+VAR
+phrase:CHAR; 
+WHILE true
+phrase = input("Entrez un caractère : ")
+phrase += caractere
+if caractere == '.':
+break  # Sortir de la boucle si le point est atteint
+END_WHILE
+print("Phrase complète :", phrase) 
