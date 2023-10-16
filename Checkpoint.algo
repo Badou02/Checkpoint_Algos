@@ -1,10 +1,29 @@
 ALGORITHM Check_point
 VAR
-phrase:CHAR; 
-WHILE true
-phrase = input("Entrez un caractère : ")
-phrase += caractere
-if caractere == '.':
-break  # Sortir de la boucle si le point est atteint
-END_WHILE
-print("Phrase complète :", phrase) 
+ tab:=[]
+ i:=INTEGER:
+ phrase:=STRING; 
+ Nbredecarractère:=CHAR;
+ Nbredemots:=STRING;
+ Nbredevoyelle:=CHAR
+
+ BEGIN
+ Read(phrase)
+ for i=0; i<phrase.lenght i++
+ if i=="."
+ write("Ceci est une phrase") 
+ end_if
+
+ for i=0; i<phrase.lenght i++
+ if i=="a,o,i,u,e,y"
+  Nbredevoyelle=i
+  write("Ceci est une voyelle")
+ end_if
+
+ for i=0; i<phrase.lenght i++
+    IF (i ==! " ")
+    tab=[i]
+    write("Ceci est un mot")
+ END_IF
+ end_if
+END
